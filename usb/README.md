@@ -10,7 +10,7 @@ This requires using some kind of exploit to be able to run homebrew apps, so you
 
 - Raspberry Pi Pico
 - (Optional, but highly recommended): an HDMI decoder capable of providing a 3.3V VSYNC signal to the Raspberry Pi Pico on GP2, e.g.: [TFP401 breakout board](https://www.adafruit.com/product/2218).
-  - Wire up the VSYNC output and ground to the Pi Pico's GP2 pin.
+  - Wire up the VSYNC output to the Pi Pico's GP2 pin. Also run a ground wire between the HDMI decoder and the Pico.
 - USB to serial adapter connected to the Raspberry Pi Pico's GP0 and GP1 pins to provide console access. I use the [Raspberry Pi Debug Probe](https://www.raspberrypi.com/products/debug-probe/).
 - If you are using the VSYNC signal, you will need an HDMI splitter if you also want to see the Wii U's HDMI output on a TV or monitor.
 - A FAT32-formatted SD card to put in the Wii U
